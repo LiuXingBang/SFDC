@@ -1,0 +1,11 @@
+<template>
+    <lightning-input 
+        label='Show?'
+        onclick={handleButtonClick}
+        type='checkbox'
+    ></lightning-input>
+    
+    <template if:true={show}>
+        <c-son-life-cycle></c-son-life-cycle>
+    </template>
+</template>
